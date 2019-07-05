@@ -1,0 +1,65 @@
+.box {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+}
+
+h1 {
+    font-style: inherit;
+}
+
+img {
+    display: block;
+    height: auto;
+}
+
+.wrapper {
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+    /* width: 470; */
+    width: 960px;
+    margin: 0 auto;
+}
+
+.site-navigation li {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 122px;
+    height: 14;
+}
+
+.site-navigation {
+    margin: 0 auto;
+    padding: 60px;
+    margin-left: 220px;
+}
+
+.page-header {
+    margin: 0 auto;
+}
+
+.site-navigation a:focus {
+    color: blue;
+}
+
+.button {
+    width: 164px;
+    height: 59px;
+    margin-left: 370px;
+    border: 2px solid gray;
+    font-size: 20px;
+    background-color: azure;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* .two { 
+    display: right;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 10px;
+    border: 10px solid black;
+    width: 470;
+} */

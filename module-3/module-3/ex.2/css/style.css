@@ -1,0 +1,17 @@
+.main {
+    margin: 0 auto;
+}
+
+div {
+    box-sizing: border-box;
+    /* margin: 20px; */
+    padding: 10px;
+    width: 470;
+    outline: none;
+    box-shadow: 10;
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-style: inherit;
+}
