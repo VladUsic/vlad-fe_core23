@@ -2,6 +2,7 @@
     display: inline-block;
     vertical-align: top;
     margin: 20px;
+    font-size: 0 px;
 }
 
 h1 {
@@ -42,8 +43,7 @@ img {
 }
 
 .button {
-    width: 164px;
-    height: 59px;
+    padding: 1rem 2rem;
     margin-left: 370px;
     border: 2px solid gray;
     font-size: 20px;
@@ -52,6 +52,11 @@ img {
 
 a {
     text-decoration: none;
+}
+
+figcaption {
+    margin-top: 15px;
+    /* Отступы вокруг абзаца */
 }
 
 
