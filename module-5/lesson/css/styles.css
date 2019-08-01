@@ -1,0 +1,34 @@
+.card {
+    width: 300;
+    height: 400;
+    border: 1px solid black;
+}
+
+.card-image {
+    width: 100;
+    height: 150;
+}
+
+.card-info {
+    position: relative;
+    /* width: 100px; */
+    left: 0;
+    bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0.5);
+    height: 400px;
+    width: 300px;
+    opacity: 0;
+}
+
+.card:hover .overlay {
+    background-color: blue;
+    opacity: 1;
+}

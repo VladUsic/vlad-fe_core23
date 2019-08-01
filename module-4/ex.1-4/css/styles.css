@@ -1,0 +1,67 @@
+li {
+    list-style-type: none;
+}
+
+.first {
+    float: left;
+    padding: 10px;
+    border-left: 1px solid #f40;
+    text-align: center;
+}
+
+.first li:hover {
+    color: blue;
+}
+
+.second {
+    margin: 100px;
+}
+
+.second li:nth-child(1) {
+    background-color: #88292F;
+}
+
+.second li:nth-child(even) {
+    background-color: #5DB7DE;
+}
+
+.second li:nth-child(5) {
+    background-color: #0D5D56;
+}
+
+a:hover {
+    background: #786b59;
+    /* Цвет фона под ссылкой */
+    color: #ffe;
+    /* Цвет ссылки */
+}
+
+a:link {
+    color: #0E1116;
+    /* Цвет ссылок */
+    padding: 2px;
+    /* Поля вокруг текста */
+}
+
+.third li:before {
+    content: "\2192";
+    /* Добавляем желаемый символ перед элементом списка */
+}
+
+.fourth li:before {
+    list-style-type: upper-roman;
+}
+
+.name-list::before {
+    counter-increment: list;
+    content: counter(list);
+}
+
+.name-list::before {
+    content: "\220E";
+}
+
+.name-list {
+    list-style: none;
+    list-style-type: upper-roman;
+}
