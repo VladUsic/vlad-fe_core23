@@ -1,0 +1,10 @@
+.div {
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+.body {
+    background-image: url();
+    background: url(https://i.pinimg.com/originals/01/47/bd/0147bd61ee15e3228d30e03ce2d64f5a.jpg);
+}
