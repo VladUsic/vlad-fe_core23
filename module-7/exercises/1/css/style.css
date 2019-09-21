@@ -1,0 +1,56 @@
+.block-1 {
+    width: 350px;
+}
+
+table {
+    border: 1px solid grey;
+    border-color: black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid grey;
+    color: gray;
+    border-collapse: separate;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.titles {
+    border: 5px;
+    border-color: black;
+    color: black;
+}
+
+.titles td {
+    background-color: gray;
+    color: white;
+}
+
+.name {
+    text-align: center;
+}
+
+.block-2 {
+    width: 350px;
+}
+
+input {
+    font-size: 20px;
+    width: 350px;
+    margin: 15px;
+}
+
+input[type="email"] {
+    width: 350px;
+    height: 60px;
+}
+
+input[type="text"] {
+    width: 350px;
+    height: 300px;
+}
+
+.form {
+    margin-top: 10px;
+}

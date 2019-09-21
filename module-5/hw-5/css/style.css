@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+.site-head {
+  height: 90px;
+}
+.site-logo {
+  float: left;
+  padding-top: 35px;
+}
+.navigation li {
+  float: left;
+  list-style: none;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.navigation li:not(:last-child) {
+  margin-right: 34px;
+}
+.navigation a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+.navigation a:hover {
+  color: rgb(78, 198, 171);
+}
+.navigation {
+  float: right;
+  padding-top: 35px;
+}
+.site-main {
+  font-family: "Roboto", sans-serif;
+}
+
+.image-fon {
+  position: relative;
+  height: 600px;
+  /* margin-bottom: 260px; */
+}
+.image_girls {
+  width: 100%;
+}
+.but {
+  width: 105px;
+  height: 105px;
+  background-color: #1abc9c;
+  opacity: 0.65;
+  border: none;
+  transition: opacity 0.4s ease;
+}
+.left {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.right {
+  position: absolute;
+  top: 50%;
+  right: 215px;
+  transform: translateY(-50%);
+}
+.but:hover,
+.but:focus {
+  background-color: #4ec6ab;
+  opacity: 1;
+  cursor: pointer;
+}
+.text {
+  position: absolute;
+  transform: translateY(-50%);
+  left: 420px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+.Affordable_Paris {
+  top: 41%;
+  font-size: 52px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.city_tours {
+  top: 51%;
+  font-size: 20px;
+  font-weight: 300;
+}
+.wrapper {
+  width: 1600px;
+  background-color: #e9f0fd;
+}
+.box {
+  height: 680px;
+}
+.new_colect {
+  font-size: 48px;
+  text-transform: uppercase;
+  color: rgb(81, 81, 81);
+  text-align: center;
+  padding: 100px 0 80px;
+}
+.new_colect::after {
+  display: block;
+  content: "";
+  width: 160px;
+  height: 8px;
+  background-color: #1abc9c;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.block {
+  height: 322px;
+  width: 252px;
+  background-color: #fff;
+  cursor: pointer;
+  float: left;
+}
+.block:not(:last-child) {
+  margin-right: 30.6px;
+}
+.block_img_wrap {
+  overflow: hidden;
+  height: 284px;
+  position: relative;
+}
+.block_img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.block_modal {
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  opacity: 0;
+  width: 235px;
+  height: 260px;
+  left: 10px;
+  top: 10px;
+  z-index: 10;
+  transition-duration: 0.3s;
+}
+.block_icon {
+  position: absolute;
+  opacity: 0;
+  width: 235px;
+  top: 90px;
+  left: 24px;
+  z-index: 20;
+  transition-duration: 3s;
+}
+.icon_but {
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  background: transparent;
+  margin: 0 8px 10px;
+  border: 1px solid #fff;
+  vertical-align: top;
+  cursor: pointer;
+}
+.icon_but_shop {
+  width: 190px;
+  background: #323232;
+   }
+   .icon_but_shop img {
+    position: absolute;
+    top: 56%;
+    left:6%;
+   }
+.icon_but:hover {
+  background: #1abc9c;
+  opacity: 1;
+  border: 1px solid #1abc9c;
+}
+
+.block:hover .block_modal {
+  opacity: 0.549;
+}
+.block:hover .block_icon {
+  opacity: 1;
+}
+.text_wrp {
+  height: 39px;
+  line-height: 39px;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+ padding-left: 40px;
+}
+.block_text {
+  height: 40px;
+  line-height: 40px;
+  background: #323232;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  overflow: hidden;
+  transition-duration: 0.3s;
+}
+.cart_title {
+  padding-left: 14px;
+}
+.cart_price {
+  float: right;
+  background: #8c8c8c;
+  padding: 0 12px;
+  transition-duration: 0.3s;
+}
+.block:hover .block_text {
+  background: #1abc9c;
+}
+.block:hover .cart_price {
+  background: #7fd9c7;
+}
+.my_footer {
+  position: relative;
+  height: 80px;
+  background-color: rgb(50, 50, 50);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+.footer_text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 35%;
+}
+.design:hover {
+  color: rgb(26, 188, 156);
+}
+.themen:hover {
+  color: rgb(26, 188, 156);
+}
+.docan:hover {
+  color: rgb(26, 188, 156);
+}

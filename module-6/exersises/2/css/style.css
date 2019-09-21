@@ -1,0 +1,42 @@
+    div {
+        width: 540px;
+        box-shadow: 0 0 30px rgb(0, 0, 0);
+        /* Параметры тени */
+        padding: 10px;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    p {
+        text-align: center;
+    }
+    
+    h1:hover {
+        color: red;
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    
+    button {
+        margin-left: 250px;
+        margin-bottom: 10px;
+        box-shadow: 2px solid gray;
+        font-size: 20px;
+        background: black;
+        color: white;
+    }
+    
+    button:hover {
+        -webkit-transform: scaleX(8.2);
+        -ms-transform: scaleX(8.2);
+        transform: scaleX(8.2);
+    }
+    
+    img:hover {
+        -webkit-transform: rotateZ(20deg);
+        -ms-transform: rotateZ(20deg);
+        transform: rotateZ(20deg);
+    }

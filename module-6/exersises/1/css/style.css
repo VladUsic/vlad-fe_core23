@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+
+img {
+    height: 30%;
+    width: 30%;
+    border: 10px solid black;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
